@@ -6,69 +6,69 @@ document.addEventListener("DOMContentLoaded", (event) => {
   //array of objects of all spring months
   const spring = [
     { 
-	  month: "",
-      season: "",
-	  image: ""
+	  month: "march",
+      season: "spring",
+	  image: "https://files.catbox.moe/r00a9n.jpg"
   },
   { 
-	  month: "",
-      season: "",
-	  image: ""
+	  month: "april",
+      season: "spring",
+	  image: "https://files.catbox.moe/cxibqq"
   },
   { 
-	  month: "",
-      season: "",
+	  month: "may",
+      season: "spring",
 	  image: ""
   }
 ]
 const summer = [
    { 
-	  month: "",
-      season: "",
+	  month: "june",
+      season: "summer",
 	  image: ""
   },
   { 
-	  month: "",
-      season: "",
+	  month: "july",
+      season: "summer",
 	  image: ""
   },
   { 
-	  month: "",
-      season: "",
+	  month: "august",
+      season: "summer",
 	  image: ""
   }
 ]
 const autumn = [
    { 
-	  month: "",
-      season: "",
+	  month: "september",
+      season: "autumn",
 	  image: ""
   },
   { 
-	  month: "",
-      season: "",
+	  month: "october",
+      season: "autumn",
 	  image: ""
   },
   { 
-	  month: "",
-      season: "",
+	  month: "november",
+      season: "autumn",
 	  image: ""
   }
 ]
   const winter = [
 { 
-	  month: "",
-      season: "",
+	  month: "december",
+      season: "winter",
 	  image: ""
   },
   { 
-	  month: "",
-      season: "",
+	  month: "january",
+      season: "winter",
 	  image: ""
   },
   { 
-	  month: "",
-      season: "",
+	  month: "feburary",
+      season: "winter",
 	  image: ""
   }
   ]
