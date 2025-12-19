@@ -77,13 +77,11 @@ const autumn = [
 function render(arr) {
   arr.forEach(person => {
     body.innerHTML += `
-    <div class="itemWrap">
       <div class="itemInfo">
         <h3>${person.month}</h3>
         <p>${person.season}</p>
         <img src="${person.image}">
         </div>
-      </div>
     `;
   });
 }
