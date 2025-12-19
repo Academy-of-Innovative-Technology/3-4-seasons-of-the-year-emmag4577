@@ -75,12 +75,12 @@ const autumn = [
 
 
 function render(arr) {
-  arr.forEach(person => {
+  arr.forEach(seasons => {
     body.innerHTML += `
       <div class="itemInfo">
-        <h3>${person.month}</h3>
-        <p>${person.season}</p>
-        <img src="${person.image}">
+        <h3>${seasons.month}</h3>
+        <p>${seasons.season}</p>
+        <img src="${seasons.image}">
         </div>
     `;
   });
