@@ -40,34 +40,96 @@ function displayAllSeasons() {
 document.addEventListener("DOMContentLoaded", (event) => {
   
   //creating variable for HTML
-  let body = document.querySelector(".main");
+  let body = document.getElementById("#rowSpring");
   
-  //array of objects of all teachers
-  const principals = [
+  //array of objects of all spring months
+  const spring = [
     { 
-       name: "Ms. Lynch",
-      email: "ms.lynch@aoiths.org",
-      role: "Principal",
-      color: "#706563"
+	  month: "",
+      season: "",
+	  image: ""
+  },
+  { 
+	  month: "",
+      season: "",
+	  image: ""
+  },
+  { 
+	  month: "",
+      season: "",
+	  image: ""
   }
 ]
+const summer = [
+   { 
+	  month: "",
+      season: "",
+	  image: ""
+  },
+  { 
+	  month: "",
+      season: "",
+	  image: ""
+  },
+  { 
+	  month: "",
+      season: "",
+	  image: ""
+  }
+]
+const autumn = [
+   { 
+	  month: "",
+      season: "",
+	  image: ""
+  },
+  { 
+	  month: "",
+      season: "",
+	  image: ""
+  },
+  { 
+	  month: "",
+      season: "",
+	  image: ""
+  }
+]
+  const winter = [
+{ 
+	  month: "",
+      season: "",
+	  image: ""
+  },
+  { 
+	  month: "",
+      season: "",
+	  image: ""
+  },
+  { 
+	  month: "",
+      season: "",
+	  image: ""
+  }
+  ]
+
 
 function render(arr) {
   arr.forEach(person => {
     body.innerHTML += `
-    <div class="cardWrapper">
-      <div class="card" style="background-color: ${person.color};">
-      <div class="cardInfo">
-        <h3>${person.name}</h3>
-        <p>${person.role}</p>
-        <p>${person.email}</p>
+    <div class="itemWrap">
+      <div class="itemInfo">
+        <h3>${person.month}</h3>
+        <p>${person.season}</p>
+        <img src="${person.image}">
         </div>
-      </div>
       </div>
     `;
   });
 }
 
-render(principals);
+render(spring);
+render(summer);
+render(autumn);
+render(winter);
 
 });
