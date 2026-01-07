@@ -75,7 +75,7 @@ const autumn = [
 	  image: "https://files.catbox.moe/czkggs.jpg"
   }
   ]
-  
+
   function render(spring) {
   spring.forEach(seasons => {
     body.innerHTML += `
@@ -90,8 +90,5 @@ const autumn = [
 }
 
 render(spring);
-render(summer);
-render(autumn);
-render(winter);
 
 });
