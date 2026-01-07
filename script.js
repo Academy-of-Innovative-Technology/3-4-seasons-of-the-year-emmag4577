@@ -18,58 +18,58 @@ document.addEventListener("DOMContentLoaded", (event) => {
   { 
 	  month: "may",
       season: "spring",
-	  image: ""
+	  image: "https://files.catbox.moe/nb8wz2.jpg"
   }
 ]
 const summer = [
    { 
 	  month: "june",
       season: "summer",
-	  image: ""
+	  image: "https://files.catbox.moe/jjjd8z.jpeg"
   },
   { 
 	  month: "july",
       season: "summer",
-	  image: ""
+	  image: "https://files.catbox.moe/runemr"
   },
   { 
 	  month: "august",
       season: "summer",
-	  image: ""
+	  image: "https://files.catbox.moe/fe8312"
   }
 ]
 const autumn = [
    { 
 	  month: "september",
       season: "autumn",
-	  image: ""
+	  image: "https://files.catbox.moe/iryrjz"
   },
   { 
 	  month: "october",
       season: "autumn",
-	  image: ""
+	  image: "https://files.catbox.moe/6rxbd7.jpg"
   },
   { 
 	  month: "november",
       season: "autumn",
-	  image: ""
+	  image: "https://files.catbox.moe/vassv7.jpg"
   }
 ]
   const winter = [
 { 
 	  month: "december",
       season: "winter",
-	  image: ""
+	  image: "https://files.catbox.moe/5doy8b.jpg"
   },
   { 
 	  month: "january",
       season: "winter",
-	  image: ""
+	  image: "https://files.catbox.moe/68e1fb.jpg"
   },
   { 
 	  month: "feburary",
       season: "winter",
-	  image: ""
+	  image: "https://files.catbox.moe/czkggs.jpg"
   }
   ]
 
