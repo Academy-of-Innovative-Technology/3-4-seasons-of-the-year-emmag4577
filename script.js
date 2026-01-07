@@ -89,6 +89,4 @@ const autumn = [
 
 }
 
-render(spring);
-
 });
