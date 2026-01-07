@@ -76,9 +76,9 @@ const autumn = [
   }
   ]
 
-  function render(spring) {
+  function render(arr) {
   spring.forEach(seasons => {
-    body.innerHTML += `
+    springInsert.innerHTML += `
       <div class="itemInfo">
         <h3>${seasons.month}</h3>
         <p>${seasons.season}</p>
