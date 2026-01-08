@@ -82,7 +82,6 @@ document.addEventListener("DOMContentLoaded", () => {
       container.innerHTML += `
         <div class="itemInfo">
           <h4>${item.month}</h4>
-          <p>${item.season}</p>
           <img src="${item.image}" alt="${item.month}">
         </div>
       `;
