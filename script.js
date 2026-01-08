@@ -80,9 +80,8 @@ document.addEventListener("DOMContentLoaded", () => {
   function render(arr, container) {
     arr.forEach(item => {
       container.innerHTML += `
-        <div class="col-md-4 itemInfo text-center">
+        <div class="itemInfo">
           <h4>${item.month}</h4>
-          <p>${item.season}</p>
           <img src="${item.image}" class="img-fluid rounded">
         </div>
       `;
