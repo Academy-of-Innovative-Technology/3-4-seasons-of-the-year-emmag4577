@@ -77,12 +77,13 @@ document.addEventListener("DOMContentLoaded", () => {
      }
   ];
 
-  function render(arr, container) {
+   function render(arr, container) {
     arr.forEach(item => {
       container.innerHTML += `
         <div class="itemInfo">
           <h4>${item.month}</h4>
-          <img src="${item.image}" class="img-fluid rounded">
+          <p>${item.season}</p>
+          <img src="${item.image}" alt="${item.month}">
         </div>
       `;
     });
