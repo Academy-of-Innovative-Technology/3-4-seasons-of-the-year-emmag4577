@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", (event) => {
   
   //creating variable for HTML
-  let springInsert = document.getElementById("#rowSpring");
-  let summerInsert = document.getElementById("#rowSummer");
-  let fallInsert = document.getElementById("#rowFall");
-  let winterInsert = document.getElementById("#rowWinter");
+  let springInsert = document.getElementById("rowSpring");
+  let summerInsert = document.getElementById("rowSummer");
+  let fallInsert = document.getElementById("rowFall");
+  let winterInsert = document.getElementById("rowWinter");
   
   //array of objects of all spring months
   const spring = [
@@ -76,9 +76,9 @@ const autumn = [
   }
   ]
 
-  function render(arr) {
-  spring.forEach(seasons => {
-    springInsert.innerHTML += `
+  function render(arr, container) {
+  arr.forEach(item => {
+    container.innerHTML += `
       <div class="itemInfo">
         <h3>${seasons.month}</h3>
         <p>${seasons.season}</p>
@@ -88,5 +88,9 @@ const autumn = [
   });
 
 }
+  render(spring, springInsert);
+  render(summer, summerInsert);
+  render(autumn, fallInsert);
+  render(winter, winterInsert);
 
 });
